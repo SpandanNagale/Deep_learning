@@ -2,8 +2,7 @@ import pandas as pd
 
 import numpy as np
 import streamlit as st
-from sklearn.preprocessing import StandardScaler,LabelEncoder
-from sklearn.preprocessing import OneHotEncoder
+
 import pickle
 
 model=tf.keras.models.load_model('model.h5')
